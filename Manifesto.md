@@ -42,17 +42,15 @@ While social workers may be familiar with the resources within their respective 
 ### Donors
 If it is challenging even for social workers to maintain a list of social services available across the island, it must also be the case for organisations and people to find the right social work organisations to donate to - organisations that need help, and that also have a profile that donors are interested in. 
 
-## What Makes ProvideSG Different
-In this section, we explain why ProvideSG is the best tool for helping Singaporeans.
+## The Need for ProvideSG
+In this section, we explain why the existing options are not suitable.
 
-### Why Not Google Search?
-Google provides generic results that don't take into account Singaporean's unique situation. It is highly dependent on organisations presenting content that helps Google identify them as the best resource available. For example, search "My mother injured my father. Who should I call?", a uniquely Singaporean way of describing family violence. Google's top hits are books. A Singlish-aware search that focuses exclusively on social services could possibly return better results.
-
-### Why About Available Tools?
-The tools available for helping people find the services they need are not sufficiently intuitive and efficient. The [NCSS Navigator](https://www.ncss.gov.sg/navigator) contains a comprehensive list of programmes, schemes, and policies - filters, maps, and links. However, the form in which it is delivered is not user-friendly.
+### Available Tools
+The tools available for helping people find the services they need are not sufficiently intuitive and efficient. There is one - the [NCSS Navigator](https://www.ncss.gov.sg/navigator) - that contains a comprehensive list of programmes, schemes, and policies. However, the form in which it is delivered is not user-friendly. It wasn't a positive experience using the app, and we can't possibly blame social workers for not using it. Here's why.
 
 First, it is slow. It starts with the assumption that its users (primarily social workers) want **all information**. Hence, the application, a Tableau dashboard, loads the entire database, and requires social workers to filter the services according to their needs. The (1) size of the data transferred, and (2) mechanics behind Tableau dashboards result in a laggy application.
 
-Second, it is not built for mobile use, despite the fact that users are increasingly accessing web apps from their mobiles. On mobile devices, the dashboard is reduced to four filters for programmes (Target Group, Programme Type, Area, and Programme Info), and an accompanying map of programmes. Still, it is laggy **even when emulated on Google Chrome on a desktop**. This is because it loads a whole chunk of data in an 4.5 MB text file with approximately 4.2 million characters at the onset.
+Second, it is not built for mobile use, despite the fact that users are increasingly accessing web apps from their mobiles. On mobile devices, the dashboard is reduced to four filters for programmes (Target Group, Programme Type, Area, and Programme Info), and an accompanying map. Still, it is laggy **even when emulated on Google Chrome on a desktop**. This is because it loads a whole chunk of data in a 4.5 MB text file. As you progressively filter programmes, the amount of data transferred decreases, and the app becomes faster. But, to reach that stage, users need to deal with the initial lag in response from the app when changing the filters. By then, users would have jumped over to Google.
 
-It wasn't a positive experience using the app. We can't possibly blame social workers for not using it, and we think we can do better.
+### Google Search
+Google is the next best option. Social workers should know what search terms to include to get the results they need. However, Google may not be as useful for non-social workers because it provides generic results that don't take into account Singaporean's unique context. It is highly dependent on organisations configuring their websites to help Google identify them as the best resource available. For example, search "My mother injured my father. Who do I call?", a pretty Singaporean way of describing family violence. Google's top hits are book previews. The user would then have to generalise their query to "family violence" or "family abuse". We cannot all users to do that.
