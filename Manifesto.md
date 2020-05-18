@@ -42,7 +42,17 @@ While social workers may be familiar with the resources within their respective 
 ### Donors
 If it is challenging even for social workers to maintain a list of social services available across the island, it must also be the case for organisations and people to find the right social work organisations to donate to - organisations that need help, and that also have a profile that donors are interested in. 
 
+## What Makes ProvideSG Different
+In this section, we explain why ProvideSG is the best tool for helping Singaporeans.
 
-## Features
-1. Free text search
-2. Short questionnaire
+### Why Not Google Search?
+Google provides generic results that don't take into account Singaporean's unique situation. It is highly dependent on organisations presenting content that helps Google identify them as the best resource available. For example, search "My mother injured my father. Who should I call?", a uniquely Singaporean way of describing family violence. Google's top hits are books. A Singlish-aware search that focuses exclusively on social services could possibly return better results.
+
+### Why About Available Tools?
+The tools available for helping people find the services they need are not sufficiently intuitive and efficient. The [NCSS Navigator](https://www.ncss.gov.sg/navigator) contains a comprehensive list of programmes, schemes, and policies - filters, maps, and links. However, the form in which it is delivered is not user-friendly.
+
+First, it is slow. It starts with the assumption that its users (primarily social workers) want **all information**. Hence, the application, a Tableau dashboard, loads the entire database, and requires social workers to filter the services according to their needs. The (1) size of the data transferred, and (2) mechanics behind Tableau dashboards result in a laggy application.
+
+Second, it is not built for mobile use, despite the fact that users are increasingly accessing web apps from their mobiles. On mobile devices, the dashboard is reduced to four filters for programmes (Target Group, Programme Type, Area, and Programme Info), and an accompanying map of programmes. Still, it is laggy **even when emulated on Google Chrome on a desktop**. This is because it loads a whole chunk of data in an 4.5 MB text file with approximately 4.2 million characters at the onset.
+
+It wasn't a positive experience using the app. We can't possibly blame social workers for not using it, and we think we can do better.
